@@ -6,7 +6,7 @@
 
 @layer base {
   html {
-    font-family: "Poppins", "sans-serif";
+    font-family: "Jost", "sans-serif";
     color: #ffffff;
   }
 
@@ -14,7 +14,6 @@
     overflow-x: hidden;
   }
 }
-
 
 @layer components {
   .menu-item {
@@ -26,14 +25,15 @@
   }
 
   .hero-img {
-    @apply w-[120px] h-[120px] md:w-[139px] md:h-[139px] bg-gray-800 rounded-full
+    @apply w-[120px] h-[120px] md:w-[139px] md:h-[139px] bg-gray-800 rounded-full;
   }
 
   .ui-circle {
-    @apply w-[130px] h-[130px] md:w-[180px] md:h-[180px] origin-top-left rotate-[-36.39deg] rounded-[117px] border-b-2 border-sky-500
+    @apply w-[130px] h-[130px] md:w-[180px] md:h-[180px] origin-top-left rotate-[-36.39deg] rounded-[117px] border-b-2 border-sky-500;
   }
 
   .input-box {
-    @apply bg-gradient-to-br from-blue-950 to-slate-900 rounded border border-blue-800/40 px-4 py-3 placeholder:text-slate-400 placeholder:text-sm mb-5 focus:outline-none focus:border-cyan-500 focus:border-2
+    @apply bg-gradient-to-br from-blue-950 to-slate-900 rounded border border-blue-800/40 px-4 py-3 placeholder:text-slate-400 placeholder:text-sm mb-5 focus:outline-none focus:border-cyan-500 focus:border-2;
   }
 }
+

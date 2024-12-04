@@ -7,15 +7,16 @@ import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-import BG_GRADIENT from "./assets/wave.png";
+import BG_GRADIENT from "./assets/blob-scene-haikei.png";
 
 const App = () => {
   return (
-    <div className="bg-[#FFF7F7]">
+    <div className="bg-[#EAE7EA]">
       <div
         style={{
           backgroundImage: `url(${BG_GRADIENT})`,
-          backgroundPosition: `50% 50%`,
+          backgroundSize: `cover`,
+          backgroundRepeat: "repeat-y",
         }}
       >
         <Navbar />

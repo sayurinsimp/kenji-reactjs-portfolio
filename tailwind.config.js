@@ -1,28 +1,24 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      display: ["Poppins", "sans-serif"],
+      display: ["Jost", "sans-serif"],
     },
-    
+
     extend: {
       // Colors used in the project
       colors: {
-        primary: "#0F9DF8",
-        background: "#040B1C",
-        cardbg: "#061840",
-        white:'#FBFBFB',
+        primary: "#A590ED",
+        background: "#C6A8E4",
+        cardbg: "#9295E4",
+        white: "#FBFBFB",
 
-        navbg:'#0A214E',
+        navbg: "#4247C9",
 
-        overlayBg: 'rgba(0,0,0,70)',
-      }
+        overlayBg: "rgba(0,0,0,70)",
+      },
     },
   },
   plugins: [],
-}
-
+};

@@ -5,7 +5,6 @@ import { IoPhonePortraitOutline } from "react-icons/io5";
 import { MdLink } from "react-icons/md";
 
 const Contact = () => {
-
   return (
     <section className="max-w-screen-xl mx-auto px-6 pb-20" id="contact">
       <h5 className="text-primary text-2xl md:text-4xl font-semibold text-center pb-8 md:pb-14 ">
@@ -21,17 +20,17 @@ const Contact = () => {
             text={PROFILE_DATA.phone}
           />
 
-          <ContactInfoCard
-            icon={<MdLink />}
-            text={PROFILE_DATA.website}
-          />
+          <ContactInfoCard icon={<MdLink />} text={PROFILE_DATA.website} />
         </div>
 
         <div>
           <h5 className="md:hidden text-cyan-300 text-lg font-medium mt-4 pb-5">
             Contact Form
           </h5>
-          <form className="flex flex-col" action= "formsparks_link_here">
+          <form
+            className="flex flex-col"
+            action="https://submit-form.com/39TG4Fmnt"
+          >
             <input
               type="text"
               name="fullname"
